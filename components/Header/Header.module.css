@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background: #014b6b;
+}
+
+.logoContainer {
+  margin-left: 25px;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.header a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 25px;
+}
+
+.mobileNav {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 180px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .mobileNav {
+    display: inline-block;
+  }
+
+  .mobileNav i {
+    color: #ffffff;
+    font-size: 25px;
+    padding: 30px;
+  }
+}
